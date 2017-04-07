@@ -16,7 +16,7 @@ int main() {
     std::cout << "Value of key 3: " << d.getValue(3) << std::endl;
     std::cout << "Elements: " <<d.getCount() << std::endl;
     std::cout << "Removing an element: " << std::endl;
-    d.remove(3);
+    //d.remove(3);
     std::cout << "Elements: " <<d.getCount() << std::endl<< std::endl;;
 
     Dictionary<std::string,int> d2;
